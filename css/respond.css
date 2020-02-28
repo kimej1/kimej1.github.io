@@ -1,0 +1,114 @@
+/* desktop */
+@media (min-width:1400px) {
+	.container {width:1400px}
+}
+
+/* tablet */
+@media (min-width:768px) and (max-width:991px) {
+	/* home */
+	#home .line {margin-top:40%}
+	
+	#myNavbar > ul li.drop-down:hover ul {display:none}
+
+	#myNavbar > ul li.drop-down > a:after {content:'';display:none}
+
+	/* about */
+	#about .left1 {height:350px}
+	#about .left1 h2 {line-height:344px}
+
+	#about .right1 {height:350px}
+	#about .right1 .profile {margin-top:5%}
+	#about .right1 .skill .progress {width:55%;margin-left:5%;margin-top:5px;height:10px;float:left}
+
+	/* portfolio */
+	.left {height:350px}
+	.left img {position:absolute}
+	.left img.pc1 {width:50%;left:25%;top:15%;margin-left:0}
+	.left img.pc {width:40%;left:10%;top:20%;margin-left:0}
+	.left img.ta {width:18%;left:55%;top:30%;margin-left:0}
+	.left img.mo {width:10%;left:80%;top:40%;margin-left:0}
+	.left img.mo1 {width:130px;left:40%;top:50px;margin-left:0}
+
+	.right {height:350px}
+	.right h2 {margin-top:10%}
+
+	/* contact */
+	#contact h2 {width:100%;margin-top:140%}
+	#contact .hp,#contact .email {margin-top:125%}
+
+	/* modal */
+	.modal-dialog {position:absolute;top:50px;left:50%;margin-left:-45%;width:90%}
+}
+
+/* mobile */
+@media (max-width:767px) {
+	section {height:650px;padding-top:50px}
+	section#contact {height:600px;padding-top:50px}
+	
+	/* nav */
+	.bg {padding:0}
+	h1 {margin-top:10px;padding-left:10px;font-size:25px}
+	#footer {height:40px}
+
+	#myNavbar {}
+	#myNavbar > ul {}
+	#myNavbar > ul li {border-bottom:1px solid #ddd}
+	#myNavbar > ul li:last-child {border-bottom:0}
+	#myNavbar > ul li a.nav-link {font-size:16px;margin:0;padding:15px 20px}
+	#myNavbar > ul li:last-child a.nav-link {}
+	#myNavbar > ul li.drop-down:hover ul {display:none}
+
+	#myNavbar > ul li.drop-down > a:after {content:'';display:none}
+
+	/* home */
+	#home .line {margin-top:60%}
+
+	/* about */
+	#about .left1 {height:200px;width:85%;}
+	#about .left1 h2 {line-height:194px}
+
+	#about .right1 {height:300px;width:90%}
+	#about .right1 .profile {height:160px;margin-top:0}
+	#about .right1 .profile p {font-size:14px}
+
+	#about .right1 .skill {margin:10px 10px 0 10px}
+	#about .right1 .skill span {width:25%;}
+	#about .right1 .skill span:last-child {width:15%;text-align:right}
+	#about .right1 .skill .progress {width:40%}
+
+	/* portfolio */
+	.left {height:250px;width:85%}
+	.left img {position:absolute}
+	.left img.pc1 {width:250px;left:50%;top:20px;margin-left:-125px}
+	.left img.pc {width:240px;left:50%;top:20px;margin-left:-120px}
+	.left img.ta {width:100px;left:50%;top:90px;margin-left:-150px}
+	.left img.mo {width:50px;left:50%;top:140px;margin-left:-80px}
+	.left img.mo1 {width:100px;left:50%;;top:10%;margin-left:-50px}
+
+	.right {height:250px;width:90%}
+	.right h2 {margin-top:20px;font-size:30px;padding-left:0;text-align:center}
+	.right .text {margin-left:0}
+	.right .text h3 {font-size:20px}
+	.right .text p {font-size:14px}
+	.right .text button {width:22%;margin-right:3%;font-size:16px}
+
+	/* contact */
+	#contact h2 {width:100%;margin:0 auto;font-size:40px;height:116px;line-height:110px}
+	#contact .hp,#contact .email  {margin:5% auto;width:180px;height:180px}
+	#contact .hp img,#contact .email img {margin-top:40px;width:70px}
+	#contact .email p {font-weight:600;margin-top:-20px}
+
+	/* footer */
+	#footer .copy {line-height:40px}
+
+	/* modal */
+	.modal-dialog {position:absolute;top:50px;left:50%;margin-left:-45%;width:90%}
+
+	/* button */
+	.icon-mobile {display:block;position:fixed;top:450px;right:5%}
+	.icon-mobile button {display:block;width:30px;height:30px;background:none;border:0;text-indent:-9999px;}
+	.icon-mobile button.btn_up {border-bottom:1px solid #333;background:url(../images/btnup.png) no-repeat 50%;background-size:60%}
+	.icon-mobile button.btn_down {border-top:1px solid #333;background:url(../images/btndown.png) no-repeat 50%;background-size:60%}
+
+	.icon-pc {display:none}
+}
